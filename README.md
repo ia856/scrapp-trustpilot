@@ -18,3 +18,6 @@ Grâce à cette API, vous pouvez :
 ```sh
 git clone https://github.com/ia856/scrapp-trustpilot.git
 cd scrapp-trustpilot
+
+### 2️⃣ **Installation des dépendaces**2️
+
