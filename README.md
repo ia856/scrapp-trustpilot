@@ -21,9 +21,9 @@ API REST avec FastAPI
 
 ### 1. Cloner le projet
 
-git clone https://github.com/scapp-trustpilot.git
+`git clone https://github.com/scapp-trustpilot.git
 
-cd scapp-trustpilot
+cd scapp-trustpilot`
 
 ### 2. Installer les dépendances
 
@@ -31,7 +31,7 @@ cd scapp-trustpilot
 
 ### 3. Lancer l'API
 
-uvicorn api:app --host 0.0.0.0 --port 8000
+`uvicorn api:app --host 0.0.0.0 --port 8000`
 
 L'API sera accessible sur http://127.0.0.1:8000/docs.
 
@@ -94,7 +94,7 @@ Requête :
 
 
 
-Auteur
+## Auteur
 
-👤 Mouhamed DIALLO  [Votre Contact / GitHub]
+👤 Mouhamed DIALLO  
 
