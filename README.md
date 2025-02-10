@@ -52,15 +52,15 @@ L'API sera accessible depuis l'hôte et d'autres machines sur le réseau.
 
 -API en FastAPI : api.py
 
--Scraping des avis : scrap.py
+- Scraping des avis : scrap.py
 
--Analyse de sentiment : sentiment.py
+- Analyse de sentiment : sentiment.py
 
--Génération de résumé : resume.py
+- Génération de résumé : resume.py
 
--Génération de graphiques : interface.py
+- Génération de graphiques : interface.py
 
--Configuration Docker : Dockerfile
+- Configuration Docker : Dockerfile
 
 ## Exemple d'Appel API
 
