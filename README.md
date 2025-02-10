@@ -6,22 +6,21 @@ Ce projet permet d'extraire, analyser et résumer les avis clients sur une entre
 
 ## Fonctionnalités
 
--Scraping des avis depuis Trustpilot
+- Scraping des avis depuis Trustpilot
 
--Analyse de sentiment des avis avec DistilBERT
+- Analyse de sentiment des avis avec DistilBERT
 
--Génération de résumé avec Gemini
+- Génération de résumé avec Gemini
 
--Visualisation des sentiments sous forme de graphique
+- Visualisation des sentiments sous forme de graphique
 
 API REST avec FastAPI
 
 ## Installation et Exécution
 
 ### 1. Cloner le projet
-
-git clone https://github.com/votre-repo.git
-cd votre-repo
+'git clone https://github.com/votre-repo.git'
+'cd votre-repo'
 
 ### 2. Installer les dépendances
 
