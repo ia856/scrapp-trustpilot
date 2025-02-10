@@ -3,6 +3,7 @@
 ## Description
 
 Ce projet permet d'extraire, analyser et résumer les avis clients sur une entreprise en utilisant FastAPI, scraping, analyse de sentiment et modèles LLM.
+Il demande à l'utilisateur de donner un url ou le nom d'un entreprise pour donner un résumé des avis clients et aussi un graphique montrant la répartition des sentiments : positif, négatif et neutre.
 
 ## Fonctionnalités
 
@@ -20,9 +21,9 @@ API REST avec FastAPI
 
 ### 1. Cloner le projet
 
-git clone https://github.com/votre-repo.git
+git clone https://github.com/scapp-trustpilot.git
 
-cd votre-repo
+cd scapp-trustpilot
 
 ### 2. Installer les dépendances
 
@@ -39,36 +40,36 @@ L'API sera accessible sur http://127.0.0.1:8000/docs.
 
 ### 1. Construire l'image Docker
 
-` **docker build -t sentiment-api .**`
+` docker build -t sentiment-api .`
 
 ### 2. Lancer le conteneur
 
-docker run -p 8000:8000 sentiment-api
+` docker run -p 8000:8000 sentiment-api`
 
 L'API sera accessible depuis l'hôte et d'autres machines sur le réseau.
 
 ## Points Importants
 
-API en FastAPI : api.py
+-API en FastAPI : api.py
 
-Scraping des avis : scrap.py
+-Scraping des avis : scrap.py
 
-Analyse de sentiment : sentiment.py
+-Analyse de sentiment : sentiment.py
 
-Génération de résumé : resume.py
+-Génération de résumé : resume.py
 
-Génération de graphiques : interface.py
+-Génération de graphiques : interface.py
 
-Configuration Docker : Dockerfile
+-Configuration Docker : Dockerfile
 
-Exemple d'Appel API
+## Exemple d'Appel API
 
 POST /analyze_reviews
 
 Requête :
 
 {
-  "query": "amazon.fr"
+  "query": "amazon.fr" ou "amazon"
 }
 
 Réponse :
@@ -77,8 +78,20 @@ Réponse :
   "entreprise": "Amazon",
   "note": "4.5",
   "summary": "Les clients apprécient la livraison rapide, mais critiquent le service client.",
-  "sentiments": "...image encodée en base64..."
 }
+
+
+POST /sentiment_chart
+
+Requête :
+
+{
+  "query": amazon
+}
+
+"sentiments": "...image..."
+
+
 
 
 Auteur
