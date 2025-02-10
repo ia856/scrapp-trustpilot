@@ -6,13 +6,13 @@ Ce projet permet d'extraire, analyser et résumer les avis clients sur une entre
 
 ## Fonctionnalités
 
-Scraping des avis depuis Trustpilot
+-Scraping des avis depuis Trustpilot
 
-Analyse de sentiment des avis avec DistilBERT
+-Analyse de sentiment des avis avec DistilBERT
 
-Génération de résumé avec Gemini
+-Génération de résumé avec Gemini
 
-Visualisation des sentiments sous forme de graphique
+-Visualisation des sentiments sous forme de graphique
 
 API REST avec FastAPI
 
@@ -79,23 +79,8 @@ Réponse :
   "sentiments": "...image encodée en base64..."
 }
 
-## Problèmes & Dépannage
-
-API inaccessible depuis une autre machine ?
-
-Vérifiez que FastAPI tourne sur 0.0.0.0
-
-Vérifiez le pare-feu (ufw ou Windows Defender)
-
-Vérifiez l'adresse IP correcte
-
-Erreur 404 sur /analyze_reviews ?
-
-Vérifiez que l'URL fournie est correcte
-
-Vérifiez que les avis existent sur Trustpilot
 
 Auteur
 
-👤 Votre Nom - [Votre Contact / GitHub]
+👤 Mouhamed DIALLO  [Votre Contact / GitHub]
 
