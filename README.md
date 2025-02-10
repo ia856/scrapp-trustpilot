@@ -50,7 +50,7 @@ L'API sera accessible depuis l'hôte et d'autres machines sur le réseau.
 
 ## Points Importants
 
--API en FastAPI : api.py
+- API en FastAPI : api.py
 
 - Scraping des avis : scrap.py
 
