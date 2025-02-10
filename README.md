@@ -19,5 +19,7 @@ Grâce à cette API, vous pouvez :
 git clone https://github.com/ia856/scrapp-trustpilot.git
 cd scrapp-trustpilot
 
-### 2️⃣ **Installation des dépendaces**2️
+# 2️⃣ **Installation des dépendances**2️
+```sh
+pip install -r requirements.txt
 
