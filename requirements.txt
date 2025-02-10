@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+pandas
+matplotlib
+torch
+transformers
+fastapi
+uvicorn
+google-generativeai
+emoji
+unidecode
+langchain
