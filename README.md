@@ -39,7 +39,7 @@ L'API sera accessible sur http://127.0.0.1:8000/docs.
 
 ### 1. Construire l'image Docker
 
-` docker build -t sentiment-api .`
+` **docker build -t sentiment-api .**`
 
 ### 2. Lancer le conteneur
 
