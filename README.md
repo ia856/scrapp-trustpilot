@@ -19,7 +19,7 @@ API REST avec FastAPI
 ## Installation et Exécution
 
 ### 1. Cloner le projet
-```git clone https://github.com/votre-repo.git'
+```git clone https://github.com/votre-repo.git
 cd votre-repo```
 
 ### 2. Installer les dépendances
