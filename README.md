@@ -20,13 +20,13 @@ API REST avec FastAPI
 
 ### 1. Cloner le projet
 
-```  git clone https://github.com/votre-repo.git
+git clone https://github.com/votre-repo.git
 
-     cd votre-repo
+cd votre-repo
 
 ### 2. Installer les dépendances
 
-pip install -r requirements.txt
+` pip install -r requirements.txt`
 
 ### 3. Lancer l'API
 
@@ -39,7 +39,7 @@ L'API sera accessible sur http://127.0.0.1:8000/docs.
 
 ### 1. Construire l'image Docker
 
-docker build -t sentiment-api .
+` docker build -t sentiment-api .`
 
 ### 2. Lancer le conteneur
 
