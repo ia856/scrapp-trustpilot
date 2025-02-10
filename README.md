@@ -21,9 +21,9 @@ API REST avec FastAPI
 
 ### 1. Cloner le projet
 
-`git clone https://github.com/scapp-trustpilot.git
+`git clone https://github.com/scapp-trustpilot.git`
 
-cd scapp-trustpilot`
+`cd scapp-trustpilot`
 
 ### 2. Installer les dépendances
 
